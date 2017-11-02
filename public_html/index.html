@@ -5,34 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="JS/jquery-3.2.1.js"></script>
         <script src="JS/popper.js"></script>
-        <script src="JS/bootstrap"></script>
+        <script src="JS/bootstrap.js"></script>
         <link rel="stylesheet" href="CSS/bootstrap.css"/>
 
     </head>
     <body>
-        <div class="container">
-            <div class="row p-3 mb-1 bg-dark text-white">
-                <h4>Menu Horizontal(navbar)</h4>
-            </div>
-            <div class="row">
-                <div class="col p-3 mb-1 bg-info text-white">
-                    <h4>Categorias</h4>
-                </div>
-                <div class="col-9 p-3 mb-1 bg-info text-white">
-                    <h4>Conteúdo</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col p-3 mb-1 bg-info text-white">
-                    <h4>Departamento</h4>
-                </div>
-                <div class="col p-3 mb-1 bg-info text-white">
-                    <h4>Minha Conta</h4>
-                </div>
-                <div class="col p-3 mb-1 bg-info text-white">
-                    <h4>Atendimento</h4>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
                 </div>
             </div>
-        </div>
+        </nav>
     </body>
 </html>
